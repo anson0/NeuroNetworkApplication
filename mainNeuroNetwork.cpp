@@ -309,7 +309,7 @@ void Net::updateWeight(double dOutPutTarget)
         else//first layer and hidden layer
         {
             double deltaWeight=0;
-            for(int j=0; j<numNodes; j++)
+            for(int j=0; j<numNodes-1; j++)
             {
                 Node& nd=layer.m_vecNodes[j];
                 for(int indexWeight=0; indexWeight<nd.m_vecWeight.size(); indexWeight++)
