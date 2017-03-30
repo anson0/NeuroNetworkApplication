@@ -31,4 +31,4 @@ g++ -std=c++11 -o neuroNetwork mainNeuroNetwork.cpp `pkg-config --cflags --libs 
 ```
 (**_Here below is the simulation result_**):ok_hand:
 
-![alt text](imageSimu.png)
+![alt text](imageSimuNew.png)
